@@ -17,6 +17,9 @@
     "typescript": "~3.7.2",
     "use-neo4j": "^0.3.5"
   },
+  "overrides": {
+    "pretty-format": "^25.1.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && mv build dist",
